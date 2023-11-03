@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Question 1:</H1>
+    
+    <script>
+var per=parseInt(prompt("Enter percentage of students"))
+if(per>=90 && per<=100){
+    document.write("your grade is A")
+}
+
+else if(per>=80 && per <=89){
+    document.write("your grade is B")
+}
+else if(per>=70 && per <=79){
+    document.write("your grade is C")
+}
+else if(per>=60 && per <=69){
+    document.write("your grade is D")
+}
+else if(per<60){
+    document.write("your grade is F")
+}
+   
+</script>
+
+<h1>Question 2:</h1>
+<script>
+
+var a = 100
+var b = 200
+if(a<b){
+    alert('200 is larger')
+}
+else if(a>b)
+alert('100 is larger')
+
+</script>
+
+<h1>Question 3:</h1>
+<script>
+    var num= parseInt(prompt("enter any number"))
+if(num>0){
+    document.write(" Positive Number")
+}
+else if(num<0)
+{document.write(" Negative Number")}
+else{
+    document.write("Zero")
+}
+
+
+</script>
+
+    <h1>Question 4:</h1>
+    <script>
+var hour =parseInt(prompt("Enter time in 24 hour format"))
+if(hour >=5 && hour<=11){
+    document.write("Good morning!")
+}
+else if(hour >=12 && hour<=16){
+    document.write("Good afternoon!")
+}
+ else if(hour >=17 && hour<=21) 
+    document.write("Good evening!")
+
+
+ else if( hour<=4 && hour>=22 ){
+    document.write("Good night!")
+}
+
+    </script>
+    <h1>Question 5:</h1>
+    <script>
+var day = parseInt(prompt("Enter number"))
+switch (day) {
+    case 1:
+        document.write("Today is Monday")
+        
+        break;
+        
+    case 2:
+        document.write("Today is Tuesday")
+        
+        break;
+    
+    case 3:
+        document.write("Today is Wednesday")
+        
+        break;
+    
+    case 4:
+        document.write("Today is THursday")
+        
+        break;
+
+        
+    case 5:
+        document.write("Today is Friday")
+        
+        break;
+        
+    case 6:
+        document.write("Today is Saturday")
+        
+        break;
+    case 7:
+        document.write("Today is Sunday")
+        
+        break;
+    default:
+        document.write("today is no day")
+        break;
+}
+
+    </script>
+    <H1>Question 6:</H1>
+    <Script>
+        
+var season = prompt(" Enter Month ")
+switch (season) {
+      
+    case "january":
+    case "february":
+    case "march":
+        alert ('Winter Season')
+        
+        break;
+
+        case "april":
+        case "may":
+        case "june":
+
+        alert ('Spring season')
+        break;
+        
+
+        case "july":
+        case "august":
+         case "september":
+
+        alert ('Summer Season')
+
+        break;
+
+        case "octuber":
+        case "november":
+        case "december" :
+
+            alert('Autumn Season')
+break;
+
+    default:
+        alert ('Enter correct month')
+        break;
+}
+</Script>
+<h1>Question 7:</h1>
+<script>
+var a = 10
+var b= 20
+var operator = prompt("Enter Operator")
+switch (operator) {
+    case "+":
+        document.write( a + b)
+        break;
+        case "-":
+        document.write( a - b)
+        break;
+        case "*":
+        document.write( a * b)
+        break;
+        case "/":
+        document.write( a / b)
+        break;
+
+
+
+    default:
+        document.write("Enter Correct Operator")
+        break;
+}
+
+
+</script>
+
+
+<h1>Questtion 8:</h1>
+<script>
+
+var languagecode = prompt("Enter Languagecode")
+switch (languagecode) {
+    case "en":
+        document.write("HELLO")
+        
+        break;
+        case "es":
+        document.write("HOLA")
+        
+        break;
+        case "ef":
+        document.write("BONJOUR")
+        
+        break;
+        case "et":
+        document.write("CIAO")
+        
+        break;
+        case "ec":
+        document.write("NI HAO")
+        
+        break;
+
+
+
+    default:
+        document.write("language code is incorrect")
+        break;
+}
+
+
+</script>
+<h1>Question 9:</h1>
+<script>
+var clothingsize = prompt("Enter Your Clothing Size(S , M, L)")
+switch (clothingsize) {
+
+    case "S":
+        alert('Small')
+        
+        break;
+        case "M":
+
+        alert('Medium')
+        
+        break;
+
+        case "L":
+        alert('Large')
+        
+        break;
+
+
+    default:
+        alert('Clotning Size Is Incorrect')
+        break;
+}
+
+
+
+</script>
+
+<h1>Question 10:</h1>
+<script>
+var num1=parseInt(prompt("Enter First Number"))
+var num2=parseInt(prompt('Enter Second Number'))
+var num3=parseInt(prompt("Enter Third Number"))
+if(
+    num1>=num2 && num1>=num3) {
+        alert('largest number is : num1')
+    }
+
+else if( num2>= num1 && num2>=num3){
+    alert('largest number is : num2  ')
+}
+else if(num3>=num1 && num3>=num2){
+    alert('Largest number is : num3')
+}
+
+if(
+    num1<=num2 && num1<=num3) {
+        alert('Smallest number is : num1')
+    }
+
+else if( num2<= num1 && num2<=num3){
+    alert('Smallest number is : num2  ')
+}
+else if(num3<=num1 && num3<=num2){
+    alert('Smallest number is : num3')
+}
+
+
+
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>

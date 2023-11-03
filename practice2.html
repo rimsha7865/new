@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+<label for="name">Enter Name:</label>
+<input type="text" name="" id="name" onfocus="foc(this)" onblur="blr(this)">
+<br><br>
+<label for="email">Enter Email:</label>
+<input type="text" name="" id="email" onfocus="foc(this)" onblur="blr(this)">
+<br><br>
+<label for="">Gender:</label>
+<input type="radio" name="gender" id="">male
+<input type="radio" name="gender" id="">female
+<br><br>
+<button onclick="formsubmit()">Submit</button>
+
+
+    </form>
+    <script>
+function foc(element){
+    element.style.backgroundColor="lightyellow"
+}
+function blr(element){
+    element.style.backgroundcolor="blue"
+}
+function formsubmit(){
+var a = document.getElementById("name").value;
+if(a == "rimsha"){
+    alert('form submitted')
+}
+else{
+    alert('fill the form')
+}
+
+}
+
+
+    </script>
+</body>
+</html>
